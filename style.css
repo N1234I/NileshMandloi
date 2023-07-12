@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+}
+body{
+  width: 100%;
+}
+html{
+  font-size: 10px;
+  font-size: 62.5%;
+  font-size: 1rem;
+}
+.hero{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: white;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    padding: 10px;
+}
+span{
+    color: #ea1538;
+}
+nav ul li {
+   list-style: none;
+   display: inline-block;
+   padding: 10px 20px;
+   margin-bottom: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+color: #ea1538;
+transition: .3s;
+}
+button{
+    border: none;
+    background-color: red;
+    border-radius: 30px;
+    padding: 7px 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    transition: .4s;
+}
+button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+section{
+    width: 60%;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.text  {
+    width: 50%;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 140px;
+    z-index: 2;
+    margin-left: 70px;
+}
+.image img{
+   width: 90%;
+   padding-top: 20px;
+   margin-left: 40px;
+   padding-bottom: 20px;
+   margin-right: auto;
+   position: relative;
+   z-index: 1;
+   transition: .4s;
+   
+}
+.image img:hover{
+    transform: scale(1.1);
+}
+.social span {
+    display: inline-block;
+    padding: 2rem;
+    ;
+    
+}
+.social {
+    margin-left: 600px;
+}
+span.fab.fa-twitter {
+    font-size: 30px;
+    transition: 0.1s;
+  }
+  span.fab.fa-facebook {
+    font-size: 30px;
+  }
+  span.fab.fa-instagram {
+    font-size: 30px;
+  }
+  span.fab.fa-twitter:hover {
+    transform: scale(1.2);
+    cursor: pointer; /* Change the color to your desired hover effect */
+  }
+  span.fab.fa-facebook:hover {
+    transform: scale(1.2);
+    cursor: pointer; /* Change the color to your desired hover effect */
+  }
+  span.fab.fa-instagram:hover {
+    transform: scale(1.2);
+    cursor: pointer; /* Change the color to your desired hover effect */
+  }
+  .image1 img{
+    width: 300px;
+    height: auto;
+    transition: .4s;
+  }
+  .tital h1{
+    font-size:30px;
+    font-weight: 200;
+    margin-left: 80px;
+  }
+  .des p{
+    color: gray;
+    margin-bottom: 10px;
+    
+    margin-left: 40px;
+  }
+  .card{
+    margin-left: 20px;
+  }
+  .des button{
+    margin-left: 90px;
+    padding: 5px 15px;
+  }
+  .box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  .image1 img:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+  }
+  .video video{
+    margin-left: 360px;
+    margin-right: auto;
+  }
+  .before_text{
+    margin-left: 10px;
+    margin-top: 70px;
+  }
+  .before_text h1{
+    font-size: larger;
+    font-weight: 700;
+  }
+  .before_text p{
+    color: gray;
+  }
+  .properties{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 20px;
+   
+  }
+  .image3 img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .property_text h2 {
+    margin-left: 20px;
+  }
+  .property_text p{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    color: gray;
+  }
+  .property_text p span{
+    background-color: blue;
+    padding: 3px;
+    font-size: small;
+    margin-right: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .last_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 200px;
+    margin-top: 80px;
+   
+  }
+  hr{
+    border: 2px solid black;
+    margin-top: 80px;
+  }
+  div ul li a{
+    text-decoration-style: none;
+  }
+  .offer_img img{
+    width: 150px;
+    height: 120px;
+    margin-left: 30px;
+  }
+  .offer_text p{
+    color: gray;
+  }
+  .offer_text h2{
+    font-size: medium;
+  }
+  .offers{
+    display: flex;
+    background-color:  wheat;
+    width: 50%;
+    margin-top: 40px;
+    padding: 20px;
+  }
+  .bu{
+    margin-top: 20px;
+  }
+  .offer{
+    display: flex;
+  }
+  .promo{
+    margin-top: 4rem;
+  }
+  .promo p{
+    color: gray;
+  }
+  .discount{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+  }
+  .dis_text{
+    margin-top: 60px;
+  }
+  .dis_text p{
+    margin-top: 5px;
+  }
+  .dis_text button{
+    margin-top: 10px;
+  }
+ 
+  @media (max-width: 400px) {
+    .box {
+     grid-template-columns: 1fr;
+     text-align: center;
+    }
+    
+  }
+  @media (max-width: 400px) {
+    .video video {
+   width: 90%;
+   height: 170px;
+   text-align: center;
+   
+    }
+    
+  }
+  @media (max-width: 400px) {
+    .nav  {
+      
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .nav ul li {
+      margin-bottom: 5px;
+    }
+  }
+  @media (max-width: 400px) {
+    .properties {
+      display: block;
+      text-align: center;
+    }
+  }
+  @media (max-width: 400px) {
+    .offer {
+     flex-direction: column;
+      text-align: center;
+      width: 100%;
+    }
+
+    .offers{
+     width: 100%;
+    }
+    .offer_text{
+      font-size: small;
+      margin-left: 0;
+    }
+    .offer_img img{
+      margin-left: 2px;
+    }
+  }
+  @media (max-width: 400px) {
+    .promo {
+     
+      text-align: center;
+    }
+  }
+
+ 
+  
+  
+  
+  
