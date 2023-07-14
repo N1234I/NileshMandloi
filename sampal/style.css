@@ -1,0 +1,486 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #777;
+    background-color: #f7f7f7;
+  }
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+}
+.header{
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,rgba(85,197,122,0.802),rgba(126,213,111,0.802)),url("https://hades-01.github.io/Natours/img/hero-small.jpg");
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    position: relative;
+}
+.first_heading{
+    display: block;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 20px;
+   
+}   
+.para{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1rem;
+    text-align: center;
+    color: #fff;
+    word-spacing: 0.3rem;
+    margin-top: 30px
+}
+.left_logo img{
+    position: ;
+   margin-left: 20px;
+   margin-top: 20px;
+   box-sizing: inherit;
+}
+.button1 button{
+    padding: 15px;
+    border-radius: 30px;
+    margin-left: 600px;
+    margin-top: 40px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.button:active {
+    transform: scale(0.9);
+  }
+
+
+  .exciting{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 100px;
+   
+ }
+ .exciting_box{
+    margin-top: 100px;
+   
+ }
+ h1#h{
+   margin-left: 400px;
+   color: rgb(15, 235, 169);
+   font-size: 30px;
+ }
+ h1#h:hover{
+    transform: skewX(12deg)scale(1.2);
+ }
+ 
+ .exciting_img{
+     display: flex;
+     margin-left: 40px;
+     
+    
+ }
+ .exciting_text{
+    margin-top: -100px;
+ }
+ .exciting_text .p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+ }
+ .exciting_text .p1{
+    margin-bottom: 40px;
+ }
+ .image-1 img{
+    margin-left: 0;
+    position: relative;z-index: -1;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+    transition: .4s;
+ }
+ .image-2 img{
+  margin-left:-170px;
+  margin-top: 120px;
+  z-index: 2;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+  transition: .4s;
+  width: 30rem;
+ }
+ .image-3 img{
+    margin-left: -260px;
+    margin-top: 50px;
+    z-index: -1;
+    position: relative;
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.3);
+    width: 30rem;
+ }
+ .image-1 img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    border: 2px solod green;
+  }
+  .image-1 img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
+
+ .card_image img{
+    width: 70px;
+   font-size: 6rem;
+   margin-bottom: 0.5rem;
+   display: inline-block;
+   background-image: linear-gradient(to right,#28b485,#7ed56f);
+   color: transparent;
+   margin-left:110px;
+  
+ } 
+ .card_image i{
+    width: 130px;
+    margin-left:100px;
+    
+ }
+ .card_text h3{
+   font-size: 20px;
+   margin-left: 40px;
+   margin-bottom: 30px;
+   margin-top: 20px;
+ }
+ .card_text p{
+    margin-left: 40px;
+   line-height: 1.5;
+ }
+ .card{
+    width: 300px;
+    background-color:rgba(255, 255, 255,0.8);
+    position: relative;
+    margin-left: 3rem;
+    height: 40vh;
+    margin-top: 6rem;
+    transition: .4s;
+ }
+ .card:hover{
+    
+    transform: scale(1.1);
+ }
+ .cards{
+    display: flex;
+    margin-top: 5rem;
+ }
+ .card_backg{
+    height: 85vh;
+    background-image: linear-gradient(to right bottom,rgba(85,197,122,0.802),rgba(126,213,111,0.802)),url("https://hades-01.github.io/Natours/img/hero-small.jpg");
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    position: relative;
+ }
+ @media(max-width:75em)
+ html{
+    font-size:56.25%;
+ }
+  
+  .card-details {
+    padding: 1rem;
+  }
+  
+  .card-details ul {
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .card-details ul li:not(:last-child) {
+    border-bottom: 1px solid #eee;
+  }
+  
+  .card-details ul li {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .video-background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    z-index: -1;
+    opacity: 0.2;
+    overflow: hidden;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .heading {
+    margin-top: 4rem;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .story {
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 3rem 6rem rgb(0 0 0 / 10%);
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+    padding: 3rem;
+  }
+  
+  .skewed-container {
+    transform: skewX(12deg);
+  }
+  
+  .content {
+    transform: skewX(-12deg);
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right bottom, #ffb900, #ff7730),
+      url(../img/nat-5.jpg);
+    opacity: 0.5;
+  }
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-image: linear-gradient(to right bottom, #7ed56f, #28b485),
+      url(../img/nat-6.jpg);
+  }
+  .overlay3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-image: linear-gradient(to right bottom, #2998ff, #5643fa),
+      url(../img/nat-7.jpg);
+  }
+  .cardHeading3 {
+      font-size: 2.8rem;
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(41, 152, 255, 0.85),
+      rgba(86, 67, 250, 0.85)
+    );
+    padding: 1rem 1.5rem;
+  }
+  .cardHeading2 {
+      font-size: 2.8rem;
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(126, 213, 111, 0.85),
+      rgba(40, 180, 133, 0.85)
+    );
+  }
+  .cardHeading1 {
+    font-size: 2.8rem;
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 185, 0, 0.85),
+      rgba(255, 119, 48, 0.85)
+    );
+  }
+  
+  .image-container img {
+    border-radius: 50%;
+    height: 100px;
+    width: 300px;
+  }
+  
+  .text {
+    -webkit-transform: skewX(12deg);
+    transform: skewX(12deg);
+    padding: 2rem;
+  }
+  
+  .story2 {
+    width: 60%;
+    margin-left: 8rem;
+    box-shadow: 0 3rem 6rem rgb(0 0 0 / 10%);
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+    padding: 3rem;
+  }
+
+  form input{
+    width: 20rem;
+  margin-top: rem;
+  padding: .7rem;
+ }
+ form{
+    display: flex;
+    flex-direction: column;
+   
+    margin-bottom:1rem;
+    
+ }
+ .form_box{
+    background-image: linear-gradient(to right,#7ed56f,#28b485);
+    color: transparent;
+    width: 100%;
+    height: 95vh;
+ }
+ .inner_box{
+    background-image: linear-gradient(105deg,rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 65%, transparent 65%), url("	https://hades-01.github.io/Natours/img/nat-10.jpg");
+    background-size: cover;
+    width: 65%;
+    height: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px  ;
+  
+  
+ }
+ form input{
+      margin-left:4rem;
+      margin-right: auto;
+      margin-top:3rem;
+      margin-bottom: .5rem;
+ }
+ .form h1{
+    margin-left: 4rem;
+    margin-top: 30px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+   
+    background-image: linear-gradient(to right,#7ed56f,#28b485);
+    -webkit-background-clip: text;
+    letter-spacing: 2px;
+    color: transparent;
+ }
+ .form{
+   box-sizing: inherit;
+   padding: 0;
+ }
+ .button{
+    margin-left: 4rem;
+    width: 8rem;
+ }
+ .button:hover{
+    transform: scale(1.1);
+ }
+ .checkbox{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left:4rem;
+    display: flex;
+   padding: 3px;
+ }
+ .radio1{
+    padding: 3px;
+ }
+ .spantext{
+    color: black;
+ }
+ .radio_button{
+  display: flex;
+ }
+ .radio_button{
+    padding: 3px;
+ }
+ .radio_button.bu{
+    border: 3px solid #55c57a;
+    
+    border-radius:50px;
+ }
+
+  
+  .Footer {
+    background-color: #333;
+    padding: 2rem;
+  }
+  
+  .Footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Footer .footer-section {
+    border-top: 0.5px solid white;
+    padding: 1.5rem;
+    width: 40%;
+  }
+  
+  .Footer .footer-section h4 {
+    margin-bottom: 1rem;
+  }
+  
+  .Footer .footer-section ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .Footer .footer-section ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .Footer .footer-section p {
+    margin-top: 1rem;
+  }
+  /* .card1 {
+      perspective: 1000px;
+      transition: transform 0.5s;
+    }
+  
+  .card1:hover {
+      transform: rotateY(180deg);
+    }
+    .card2 {
+      perspective: 1000px;
+      transition: transform 0.5s;
+    }
+  
+  .card2:hover {
+      transform: rotateY(180deg);
+    }
+  
+    .card3 {
+      perspective: 1000px;
+      transition: transform 0.5s;
+    }
+  
+  .card3:hover {
+      transform: rotateY(180deg);
+    } */
